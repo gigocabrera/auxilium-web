@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
   changeBg(colorName) {
     this.backgroundColor = "landing-" + colorName;
   }
+  
   toggleCustomizer() {
     this.showCustomizer = !this.showCustomizer;
   }

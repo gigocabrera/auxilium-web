@@ -7,33 +7,8 @@ import {AuthLayoutComponent} from "./shared/components/layouts/auth-layout/auth-
 const routes: Routes = [
   {
     path: "",
-    // comment out this 2 line to make any landing demo as your root .
-    redirectTo: "landing/demos",
-
+    redirectTo: "landing/home",
     pathMatch: "full",
-
-    /** 
-      uncomment this to make root url as one of landing page .
-      and open landing-routing.module.ts to select which demo version 
-      you want as your root
-
-      like : 
-      in landing-routing.module.ts
-    {
-    path: "",
-    component: LandingV2Component
-  },
-    
-    **/
-
-    /**  component: LandingLayoutComponent,
-     children: [
-       {
-         path: '',
-         loadChildren: './views/landing/landing.module#LandingModule'
-      }
-     ]
-     **/
   },
   {
     path: "",
@@ -41,10 +16,7 @@ const routes: Routes = [
     children: [
       {
         path: "sessions",
-        loadChildren: () =>
-          import("./views/sessions/sessions.module").then(
-            (m) => m.SessionsModule
-          ),
+        loadChildren: () => import("./views/sessions/sessions.module").then((m) => m.SessionsModule),
       },
     ],
   },
@@ -54,8 +26,7 @@ const routes: Routes = [
     children: [
       {
         path: "landing",
-        loadChildren: () =>
-          import("./views/landing/landing.module").then((m) => m.LandingModule),
+        loadChildren: () => import("./views/landing/landing.module").then((m) => m.LandingModule),
       },
     ],
   },
