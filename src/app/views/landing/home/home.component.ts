@@ -1,16 +1,23 @@
 import {Component, OnInit} from "@angular/core";
 
 @Component({
-  selector: "app-landing-v2",
-  templateUrl: "./landing-v2.component.html",
-  styleUrls: ["./landing-v2.component.scss"]
+  selector: "app-home",
+  templateUrl: "./home.component.html",
+  styleUrls: ["./home.component.scss"]
 })
-export class LandingV2Component implements OnInit {
+
+export class HomeComponent implements OnInit {
+  
   backgroundColor = "landing-indigo-light";
   showCustomizer = false;
-  constructor() {}
+  
+  constructor() {
 
-  ngOnInit() {}
+  }
+
+  ngOnInit() {
+
+  }
 
   changeBg(colorName) {
     this.backgroundColor = "landing-" + colorName;
@@ -18,4 +25,5 @@ export class LandingV2Component implements OnInit {
   toggleCustomizer() {
     this.showCustomizer = !this.showCustomizer;
   }
+
 }

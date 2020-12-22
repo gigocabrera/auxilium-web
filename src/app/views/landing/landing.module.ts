@@ -20,7 +20,7 @@ import { TestimonialCauroselComponent } from './components/testimonial-caurosel/
 import { PricingOneComponent } from './components/pricing-one/pricing-one.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LandingV2Component } from './landing-v2/landing-v2.component';
+import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { FeaturesTwoComponent } from './components/features-two/features-two.component';
 import { BestComponent } from './components/best/best.component';
@@ -79,7 +79,7 @@ import { LandingV11Component } from './landing-v11/landing-v11.component';
     PricingOneComponent,
     ContactFormComponent,
     FooterComponent,
-    LandingV2Component,
+    HomeComponent,
     FeaturesComponent,
     FeaturesTwoComponent,
     BestComponent,
