@@ -5,11 +5,6 @@ import {Routes, RouterModule} from "@angular/router";
 import {AuthLayoutComponent} from "./shared/components/layouts/auth-layout/auth-layout.component";
 
 const routes: Routes = [
-  /* {
-    path: "",
-    redirectTo: "welcome",
-    pathMatch: "full",
-  }, */
   {
     path: "",
     component: LandingLayoutComponent,
@@ -20,6 +15,10 @@ const routes: Routes = [
       },
     ],
   },
+  {
+    path: "**",
+    redirectTo: ""
+  }
 ];
 
 @NgModule({
