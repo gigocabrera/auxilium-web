@@ -6,6 +6,10 @@ import { DemosComponent } from './components/demos/demos.component';
 
 const routes: Routes = [
   {
+    path: "",
+    component: HomeComponent
+  },
+  {
     path: "home",
     component: HomeComponent
   },

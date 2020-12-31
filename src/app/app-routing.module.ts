@@ -7,10 +7,10 @@ import {AuthLayoutComponent} from "./shared/components/layouts/auth-layout/auth-
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "landing/home",
+    redirectTo: "welcome",
     pathMatch: "full",
   },
-  {
+  /* {
     path: "",
     component: AuthLayoutComponent,
     children: [
@@ -19,13 +19,13 @@ const routes: Routes = [
         loadChildren: () => import("./views/sessions/sessions.module").then((m) => m.SessionsModule),
       },
     ],
-  },
+  }, */
   {
     path: "",
     component: LandingLayoutComponent,
     children: [
       {
-        path: "landing",
+        path: "welcome",
         loadChildren: () => import("./views/landing/landing.module").then((m) => m.LandingModule),
       },
     ],
