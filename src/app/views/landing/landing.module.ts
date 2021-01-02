@@ -20,7 +20,6 @@ import { PricingOneComponent } from './components/pricing-one/pricing-one.compon
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { FeaturesComponent } from './components/features/features.component';
 import { FeaturesTwoComponent } from './components/features-two/features-two.component';
 import { BestComponent } from './components/best/best.component';
 import { LeftImageComponent } from './components/left-image/left-image.component';
@@ -69,7 +68,6 @@ import { IntroElevenComponent } from './components/intro-eleven/intro-eleven.com
     ContactFormComponent,
     FooterComponent,
     HomeComponent,
-    FeaturesComponent,
     FeaturesTwoComponent,
     BestComponent,
     LeftImageComponent,
