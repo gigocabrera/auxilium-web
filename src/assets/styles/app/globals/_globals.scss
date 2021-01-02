@@ -38,7 +38,7 @@ body {
 }
 
 .section-header p {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin-bottom: 0px !important;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .light-gray {
-  background: #f8f9fa !important;
+  background: #f3f3f3 !important;
 }
 
 .bg-primary-gradient {
@@ -350,4 +350,10 @@ blockquote {
       display: none;
     }
   }
+}
+
+/* Auxilium Custom Stules  */
+.aux-font {
+  font-size: 17px;
+  line-height: 1.9;
 }
