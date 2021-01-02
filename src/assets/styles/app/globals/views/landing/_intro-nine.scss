@@ -1,9 +1,10 @@
 .intro-nine-Wrap {
-  padding: 180px 0px 40px;
+  padding: 300px 0px 40px 0px;
   color: #fff;
   overflow: hidden;
   position: relative;
   z-index: 99;
+  height: 100vh;
   .intro-nine-RightSection {
     position: relative;
   }
@@ -17,12 +18,12 @@
     width: 100%;
     z-index: -1;
     opacity: 1;
+    background: transparent !important;
   }
   &:after {
     content: "";
     display: block;
     height: 100%;
-    background: url("/assets/images/landing/Bg/Bg_08.png") bottom no-repeat;
     background-size: cover;
     position: absolute;
     bottom: 0px;
