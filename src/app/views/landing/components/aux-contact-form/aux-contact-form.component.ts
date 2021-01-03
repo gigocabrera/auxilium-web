@@ -3,12 +3,13 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: "app-contact-form",
-  templateUrl: "./contact-form.component.html",
-  styleUrls: ["./contact-form.component.scss"],
+  selector: "app-aux-contact-form",
+  templateUrl: "./aux-contact-form.component.html",
+  styleUrls: ["./aux-contact-form.component.scss"],
   animations: [SharedAnimations]
 })
-export class ContactFormComponent implements OnInit {
+export class AuxContactFormComponent implements OnInit {
+  
   private formValues = {
     'email': null,
     'name': null,

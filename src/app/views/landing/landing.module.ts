@@ -9,7 +9,6 @@ import { LandingRoutingModule } from './landing-routing.module';
 import { Works1Component } from './components/works1/works1.component';
 import { Works2Component } from './components/works2/works2.component';
 import { PricingOneComponent } from './components/pricing-one/pricing-one.component';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { LeftImageComponent } from './components/left-image/left-image.component';
@@ -17,7 +16,6 @@ import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { NewsTwoComponent } from './components/news-two/news-two.component';
-import { SharedModule } from 'src/app/shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { BlogDetailsPageComponent } from './blog-details-page/blog-details-page.component';
@@ -28,6 +26,7 @@ import { AuxIntroComponent } from './components/aux-intro/aux-intro.component';
 import { AuxServicesComponent } from './components/aux-services/aux-services.component';
 import { AuxTechnologiesComponent } from './components/aux-technologies/aux-technologies.component';
 import { AuxTestimonialComponent } from './components/aux-testimonial/aux-testimonial.component';
+import { AuxContactFormComponent } from './components/aux-contact-form/aux-contact-form.component';
 
 @NgModule({
   imports: [
@@ -42,7 +41,6 @@ import { AuxTestimonialComponent } from './components/aux-testimonial/aux-testim
     Works1Component,
     Works2Component,
     PricingOneComponent,
-    ContactFormComponent,
     FooterComponent,
     HomeComponent,
     LeftImageComponent,
@@ -58,7 +56,8 @@ import { AuxTestimonialComponent } from './components/aux-testimonial/aux-testim
     AuxAboutComponent,
     AuxServicesComponent,
     AuxTechnologiesComponent,
-    AuxTestimonialComponent
+    AuxTestimonialComponent,
+    AuxContactFormComponent
   ],
   providers: [WINDOW_PROVIDERS]
 
