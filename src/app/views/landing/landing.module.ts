@@ -13,8 +13,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { LeftImageComponent } from './components/left-image/left-image.component';
 import { TeamComponent } from './components/team/team.component';
-import { NewsComponent } from './components/news/news.component';
-import { NewsTwoComponent } from './components/news-two/news-two.component';
 import { FormsModule } from '@angular/forms';
 
 import { AuxHeaderComponent } from './components/aux-header/aux-header.component';
@@ -42,8 +40,6 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
     HomeComponent,
     LeftImageComponent,
     TeamComponent,
-    NewsComponent,
-    NewsTwoComponent,
     ScrollToDirective,
     AuxHeaderComponent,
     AuxIntroComponent,
