@@ -14,7 +14,6 @@ import { HomeComponent } from './home/home.component';
 import { LeftImageComponent } from './components/left-image/left-image.component';
 import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
-import { FaqsComponent } from './components/faqs/faqs.component';
 import { NewsTwoComponent } from './components/news-two/news-two.component';
 import { FormsModule } from '@angular/forms';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
@@ -46,7 +45,6 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
     LeftImageComponent,
     TeamComponent,
     NewsComponent,
-    FaqsComponent,
     NewsTwoComponent,
     ScrollToDirective,
     BlogDetailsComponent,
