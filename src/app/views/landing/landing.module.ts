@@ -16,8 +16,6 @@ import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
 import { NewsTwoComponent } from './components/news-two/news-two.component';
 import { FormsModule } from '@angular/forms';
-import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
-import { BlogDetailsPageComponent } from './blog-details-page/blog-details-page.component';
 
 import { AuxHeaderComponent } from './components/aux-header/aux-header.component';
 import { AuxAboutComponent } from './components/aux-about/aux-about.component';
@@ -47,8 +45,6 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
     NewsComponent,
     NewsTwoComponent,
     ScrollToDirective,
-    BlogDetailsComponent,
-    BlogDetailsPageComponent,
     AuxHeaderComponent,
     AuxIntroComponent,
     AuxAboutComponent,
