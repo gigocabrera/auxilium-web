@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeftImageComponent } from './left-image.component';
+import { AuxWeProvideComponent } from './aux-we-provide.component';
 
-describe('LeftImageComponent', () => {
-  let component: LeftImageComponent;
-  let fixture: ComponentFixture<LeftImageComponent>;
+describe('AuxWeProvideComponent', () => {
+  let component: AuxWeProvideComponent;
+  let fixture: ComponentFixture<AuxWeProvideComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LeftImageComponent ]
+      declarations: [ AuxWeProvideComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LeftImageComponent);
+    fixture = TestBed.createComponent(AuxWeProvideComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

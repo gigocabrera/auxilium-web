@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { NguCarouselConfig } from "@ngu/carousel";
 @Component({
-  selector: "app-left-image",
-  templateUrl: "./left-image.component.html",
-  styleUrls: ["./left-image.component.scss"]
+  selector: "app-aux-we-provide",
+  templateUrl: "./aux-we-provide.component.html",
+  styleUrls: ["./aux-we-provide.component.scss"]
 })
-export class LeftImageComponent implements OnInit {
+export class AuxWeProvideComponent implements OnInit {
 
   public carouselTileItems: Array<any> = [
     {

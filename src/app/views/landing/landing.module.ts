@@ -8,10 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingRoutingModule } from './landing-routing.module';
 import { Works1Component } from './components/works1/works1.component';
 import { Works2Component } from './components/works2/works2.component';
-import { PricingOneComponent } from './components/pricing-one/pricing-one.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { LeftImageComponent } from './components/left-image/left-image.component';
 import { TeamComponent } from './components/team/team.component';
 import { FormsModule } from '@angular/forms';
 
@@ -22,6 +20,7 @@ import { AuxServicesComponent } from './components/aux-services/aux-services.com
 import { AuxTechnologiesComponent } from './components/aux-technologies/aux-technologies.component';
 import { AuxTestimonialComponent } from './components/aux-testimonial/aux-testimonial.component';
 import { AuxContactFormComponent } from './components/aux-contact-form/aux-contact-form.component';
+import { AuxWeProvideComponent } from './components/aux-we-provide/aux-we-provide.component';
 
 @NgModule({
   imports: [
@@ -35,10 +34,8 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
   declarations: [
     Works1Component,
     Works2Component,
-    PricingOneComponent,
     FooterComponent,
     HomeComponent,
-    LeftImageComponent,
     TeamComponent,
     ScrollToDirective,
     AuxHeaderComponent,
@@ -47,7 +44,8 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
     AuxServicesComponent,
     AuxTechnologiesComponent,
     AuxTestimonialComponent,
-    AuxContactFormComponent
+    AuxContactFormComponent,
+    AuxWeProvideComponent
   ],
   providers: [WINDOW_PROVIDERS]
 
