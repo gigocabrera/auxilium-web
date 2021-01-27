@@ -18,6 +18,7 @@ import { AuxContactFormComponent } from './components/aux-contact-form/aux-conta
 import { AuxWeProvideComponent } from './components/aux-we-provide/aux-we-provide.component';
 import { AuxTeamComponent } from './components/aux-team/aux-team.component';
 import { AuxWorksComponent } from './components/aux-works/aux-works.component';
+import { AuxBigQuoteComponent } from './components/aux-big-quote/aux-big-quote.component';
 import { AuxFooterComponent } from './components/aux-footer/aux-footer.component';
 
 @NgModule({
@@ -42,6 +43,7 @@ import { AuxFooterComponent } from './components/aux-footer/aux-footer.component
     AuxWeProvideComponent,
     AuxTeamComponent,
     AuxWorksComponent,
+    AuxBigQuoteComponent,
     AuxFooterComponent
   ],
   providers: [WINDOW_PROVIDERS]
