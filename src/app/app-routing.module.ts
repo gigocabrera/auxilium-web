@@ -16,9 +16,22 @@ const routes: Routes = [
     ],
   },
   {
+    path: "auth",
+    component: AuthLayoutComponent,
+    children: [
+      {
+        path: "",
+        loadChildren: () =>
+          import("./views/sessions/sessions.module").then(
+            (m) => m.SessionsModule
+          ),
+      },
+    ],
+  },
+  {
     path: "**",
     redirectTo: ""
-  }
+  },
 ];
 
 @NgModule({
