@@ -1,12 +1,12 @@
 import {Component, OnInit} from "@angular/core";
 
 @Component({
-  selector: "app-home",
-  templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"]
+  selector: "app-aux-home",
+  templateUrl: "./aux-home.component.html",
+  styleUrls: ["./aux-home.component.scss"]
 })
 
-export class HomeComponent implements OnInit {
+export class AuxHomeComponent implements OnInit {
   
   backgroundColor = "landing-auxilium-blue";
   showCustomizer = false;

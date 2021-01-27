@@ -5,9 +5,9 @@ import { CommonModule } from '@angular/common';
 import { NguCarouselModule } from "@ngu/carousel";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingRoutingModule } from './landing-routing.module';
-import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 
+import { AuxHomeComponent } from './aux-home/aux-home.component';
 import { AuxHeaderComponent } from './components/aux-header/aux-header.component';
 import { AuxAboutComponent } from './components/aux-about/aux-about.component';
 import { AuxIntroComponent } from './components/aux-intro/aux-intro.component';
@@ -31,8 +31,8 @@ import { AuxFooterComponent } from './components/aux-footer/aux-footer.component
     FormsModule
   ],
   declarations: [
-    HomeComponent,
     ScrollToDirective,
+    AuxHomeComponent,
     AuxHeaderComponent,
     AuxIntroComponent,
     AuxAboutComponent,
