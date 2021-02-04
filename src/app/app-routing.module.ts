@@ -10,7 +10,6 @@ import { HomeSevenComponent } from './components/pages/home-seven/home-seven.com
 import { HomeEightComponent } from './components/pages/home-eight/home-eight.component';
 import { HomeNineComponent } from './components/pages/home-nine/home-nine.component';
 import { HomeTenComponent } from './components/pages/home-ten/home-ten.component';
-import { HomeElevenComponent } from './components/pages/home-eleven/home-eleven.component';
 import { HomeTwelveComponent } from './components/pages/home-twelve/home-twelve.component';
 import { HomeThirteenComponent } from './components/pages/home-thirteen/home-thirteen.component';
 import { HomeFourteenComponent } from './components/pages/home-fourteen/home-fourteen.component';
@@ -25,8 +24,10 @@ import { BlogTwoComponent } from './components/pages/blog-two/blog-two.component
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 
+import { AuxHomeComponent } from './components/pages/aux-home/aux-home.component';
+
 const routes: Routes = [
-    {path: '', component: HomeOneComponent},
+    {path: '', component: AuxHomeComponent},
     {path: 'home-2', component: HomeTwoComponent},
     {path: 'home-3', component: HomeThreeComponent},
     {path: 'home-4', component: HomeFourComponent},
@@ -36,7 +37,7 @@ const routes: Routes = [
     {path: 'home-8', component: HomeEightComponent},
     {path: 'home-9', component: HomeNineComponent},
     {path: 'home-10', component: HomeTenComponent},
-    {path: 'home-11', component: HomeElevenComponent},
+    {path: 'aux-home', component: AuxHomeComponent},
     {path: 'home-12', component: HomeTwelveComponent},
     {path: 'home-13', component: HomeThirteenComponent},
     {path: 'home-14', component: HomeFourteenComponent},
