@@ -3,7 +3,7 @@
 /*================================================
 Default CSS
 =================================================*/
-$main-color: #ff2c6f;
+$main-color: #00aff0;
 $white-color: #ffffff;
 $black-color: #000000;
 $paragraph-color: #828893;
@@ -495,7 +495,7 @@ Main Banner CSS
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba(13, 15, 20, .55);
+        background: rgba(13, 15, 20, .05);
     }
 }
 .video-banner {
@@ -525,7 +525,7 @@ Main Banner CSS
 }
 .item-bg1 {
     background: {
-        image: url(assets/img/main-banner1.jpg);
+        image: url(assets/img/bg1.png);
     }
 }
 .item-bg2 {
