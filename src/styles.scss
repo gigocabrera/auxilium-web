@@ -2003,7 +2003,7 @@ Fun Facts CSS
         size: cover;
         attachment: fixed;
         repeat: no-repeat;
-        image: url(assets/img/funfacts-bg.jpg);
+        image: url(assets/img/luiscabrera-bg2.png);
     };
     &::before {
         left: 0;
@@ -2013,7 +2013,7 @@ Fun Facts CSS
         background: $black-color;
         position: absolute;
         content: '';
-        opacity: .70;
+        opacity: .01;
     }
 }
 .single-funfact {
@@ -2244,7 +2244,7 @@ Story CSS
         position: center center;
         size: cover;
         repeat: no-repeat;
-        image: url(assets/img/story-bg.jpg);
+        image: url(assets/img/bg4.jpg);
     }
     &::before {
         left: 0;
@@ -2531,7 +2531,7 @@ Call To Action CSS
         size: cover;
         attachment: fixed;
         repeat: no-repeat;
-        image: url(assets/img/call-to-action-bg.jpg);
+        image: url(assets/img/bg3.jpg);
     };
     &::before {
         left: 0;
