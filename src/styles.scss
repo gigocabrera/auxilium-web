@@ -527,7 +527,7 @@ Main Banner CSS
 }
 .item-bg1 {
     background: {
-        image: url(assets/img/bg1.png);
+        image: url(assets/img/luiscabrera-bg1.png);
     }
 }
 .item-bg2 {
@@ -1288,7 +1288,7 @@ CTA CSS
         size: cover;
         attachment: fixed;
         repeat: no-repeat;
-        image: url(assets/img/cta-bg.jpg);
+        image: url(assets/img/luiscabrera-bg1.png);
     };
     padding: {
         top: 70px;
@@ -1306,11 +1306,10 @@ CTA CSS
     }
     .cta-content {
         h3 {
-            text-transform: capitalize;
             margin-bottom: 0;
             color: $white-color;
             font: {
-                size: 34px;
+                size: 32px;
                 weight: 500;
             };
             b {
@@ -1320,14 +1319,13 @@ CTA CSS
             }
         }
         span {
-            text-transform: capitalize;
+            text-transform: uppercase;
             display: block;
             color: $white-color;
             margin-top: 12px;
-            opacity: .88;
             font: {
-                size: 14px;
-                weight: 600;
+                size: 16px;
+                weight: 500;
             };
         }
     }
