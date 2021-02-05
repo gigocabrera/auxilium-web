@@ -31,7 +31,6 @@ import { BlogOneComponent } from './components/pages/blog-one/blog-one.component
 import { BlogTwoComponent } from './components/pages/blog-two/blog-two.component';
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ErrorComponent } from './components/pages/error/error.component';
-import { DemoSidebarComponent } from './components/layouts/demo-sidebar/demo-sidebar.component';
 
 import { AuxHomeComponent } from './components/pages/aux-home/aux-home.component';
 
@@ -66,7 +65,6 @@ import { AuxHomeComponent } from './components/pages/aux-home/aux-home.component
     BlogTwoComponent,
     BlogDetailsComponent,
     ErrorComponent,
-    DemoSidebarComponent,
     AuxHomeComponent
   ],
   imports: [
