@@ -14,27 +14,42 @@ export class FeaturesComponent implements OnInit {
 
     sectionTitle: sectionTitleContent[] = [
         {
-            subTitle: 'Our Features',
-            title: 'We Always Try To Understand Users Expectation',
-            paragraphText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            subTitle: 'How are we different?',
+            title: 'We Always Try To Understand Users\' Expectations',
+            paragraphText: 'In today’s digital economy, the landscape is no longer a question of "build vs. buy", but one of "build vs. die". Companies have to get this right to survive. But how do they make this transition? We use creativity of code to solve business problems!'
         }
     ]
 
     singleFeatures: singleFeaturesContent[] = [
         {
-            icon: 'icofont-edit',
-            title: 'Creative Design',
-            paragraphText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus velit nec.'
-        },
-        {
-            icon: 'icofont-upload-alt',
-            title: 'Market Strategy',
-            paragraphText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus velit nec.'
+            icon: 'icofont-space-shuttle',
+            title: 'Bring a Startup to Market',
+            paragraphText: 'Whether you\'re starting a business or launching a new project, we can help you with your web and digital needs.'
         },
         {
             icon: 'icofont-pie-chart',
-            title: 'Business Growth',
-            paragraphText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus velit nec.'
+            title: 'Scaling Business',
+            paragraphText: 'To stay competitive in today\'s economy you need to stay ahead of the curve with innovative solutions. We can help.'
+        },
+        {
+            icon: 'icofont-stock-mobile',
+            title: 'Engaging Audiences',
+            paragraphText: 'By using the latest technologies, we build custom software that delivers great customer experience.'
+        },
+        {
+            icon: 'icofont-automation',
+            title: 'Automate Workflows',
+            paragraphText: 'Whether you\'re starting a business or launching a new project, we can help you with your web and digital needs.'
+        },
+        {
+            icon: 'icofont-people',
+            title: 'Improved Customer Experience',
+            paragraphText: 'The benefits in this area for your company are huge: more sales, lower marketing costs, a loyal customer base.'
+        },
+        {
+            icon: 'icofont-monitor',
+            title: 'Modernize Old Technology',
+            paragraphText: 'Oudated technology can harm your business. To compete, we can help you modernize your technology.'
         }
     ]
 
